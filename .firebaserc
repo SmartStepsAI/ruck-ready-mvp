@@ -1,1 +1,7 @@
-{ "projects": { "default": "your-firebase-project-id" } }
+{
+  "projects": {
+    "default": "ruck-ready"
+  },
+  "targets": {},
+  "etags": {}
+}
