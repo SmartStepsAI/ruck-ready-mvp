@@ -1,16 +1,10 @@
-# Ruck Ready MVP
+# Ruck Ready (React + Vite)
+This is the live MVP structure of your Ruck Ready app using React + Vite, built for Firebase Hosting.
 
-Digital leader’s book and Soldier readiness tool. Includes:
-- Mental health check-ins
-- ACFT PT programming
-- Nutrition guides
-- Lingo Buddy (Spanish/Portuguese)
-- NCO Study Guide
-- Leader Book with Bullet Creator
+## Commands
+- `npm install` – install dependencies
+- `npm run build` – build for production (output to `/dist`)
+- `firebase deploy` – deploy to Firebase Hosting
 
-## Deploy to Firebase
-
-1. `npm install`
-2. `firebase login`
-3. `firebase init`
-4. `firebase deploy`
+## Notes
+Make sure `firebase.json` points to the correct hosting directory: `dist`
